@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-rubik;
+}
+
+textarea {
+  @apply max-sm:h-[60px] h-[100px] w-full border-2 border-primary-moderateBlue focus:outline-none resize-none overflow-auto p-3 rounded-md flex-grow;
+}
